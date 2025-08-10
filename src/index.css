@@ -18,8 +18,7 @@ body {
 
 .material-symbols-rounded {
     @apply w-[1em] h-[1em] overflow-hidden;
-    font-variation-settings: "FILL" 0, "hght" 400, "GRAD" 0,
-    "opsz" 24;
+    font-variation-settings: "FILL" 0, "hght" 400, "GRAD" 0, "opsz" 24;
 }
 
 .container {
@@ -31,14 +30,19 @@ body {
 }
 
 .img-cover {
-    @apply w-full h-full object-cover
+    @apply w-full h-full object-cover;
+}
+
+.section {
+    @apply pt-20 lg:pt-32;
 }
 
 /* ------------------------------- *\
 * TYPOGRAPHY
 \* -------------------------------- */
 
-.headline-1 {
+.headline-1,
+.headline-2 {
     @apply max-w-max;
     background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
     -webkit-background-clip: text;
@@ -47,6 +51,14 @@ body {
 
 .headline-1 {
     @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+.headline-2 {
+    @apply text-3xl lg:text-4xl lg:leading-tight font-semibold;
+}
+
+.title-1 {
+    @apply text-[22px] font-normal;
 }
 
 /* ------------------------------- *\
@@ -65,7 +77,7 @@ body {
     @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-2xl ring-inset 
         ring-1 ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 
         invisible transition-[opacity,tranform,filter] md:static md:flex md:items-center
-        md:mt-0 md:opacity-100 md:blur-none md:visible md:scale-100 backdrop-blur-2xl 
+        md:mt-0 md:opacity-100 md:blur-none md:visible md:scale-100 backdrop-blur-2xl;
 }
 
 .navbar.active {
@@ -74,21 +86,21 @@ body {
 
 .nav-link {
     @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50
-        hover:text-zinc-50 transition-colors
+        hover:text-zinc-50 transition-colors;
 }
 
 /* Applying hidden because I didn't find any other way to make it work */
 .nav-link.contact {
-    @apply md:hidden
+    @apply md:hidden;
 }
 
 .nav-link.active {
-    @apply text-zinc-900 duration-500
+    @apply text-zinc-900 duration-500;
 }
 
 .navbar .active-box {
     @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left]
-        duration-500
+        duration-500;
 }
 
 /* Button */
@@ -110,7 +122,7 @@ body {
     @apply text-[18px];
 }
 
-.btn:has( .material-symbols-rounded) {
+.btn:has(.material-symbols-rounded) {
     @apply pr-3;
 }
 

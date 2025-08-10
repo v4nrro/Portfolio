@@ -1,16 +1,22 @@
-import './App.css'
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
+import "./App.css";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { About } from "./components/About";
+import { Skill } from "./components/Skill";
+import { Work } from "./components/Work";
 
 function App() {
-    return( 
+    return (
         <>
             <Header />
             <main>
                 <Hero />
+                <About />
+                <Skill />
+                <Work />
             </main>
         </>
-    )
+    );
 }
 
-export default App
+export default App;
