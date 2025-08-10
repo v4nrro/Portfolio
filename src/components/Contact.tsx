@@ -42,11 +42,11 @@ export const Contact = () => {
         <section id="contact" className="section">
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
                 <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-                    <h2 className="headline-2 lg:max-w-[12ch]">
+                    <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
                         Contact me for collaboration
                     </h2>
 
-                    <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
+                    <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
                         Reach out today to discuss your project needs and start
                         collaborating on something amazing!
                     </p>
@@ -68,7 +68,7 @@ export const Contact = () => {
                 <form
                     action="https://getform.io/f/bjjrewwb"
                     method="POST"
-                    className="xl:pl-10 2xl:pl-20"
+                    className="xl:pl-10 2xl:pl-20 reveal-up"
                 >
                     <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                         <div className="mb-4">
