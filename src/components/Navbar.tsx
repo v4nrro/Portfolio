@@ -31,23 +31,23 @@ export const Navbar = ({ navOpen }: PropTypes) => {
 
     const navItems = [
         {
-            label: "Home",
+            label: "Inicio",
             link: "#home",
             className: "nav-link active",
             ref: lastActiveLink,
         },
         {
-            label: "About",
+            label: "Sobre mí",
             link: "#about",
             className: "nav-link",
         },
         {
-            label: "Work",
+            label: "Proyectos",
             link: "#work",
             className: "nav-link",
         },
         {
-            label: "Contact",
+            label: "Contacto",
             link: "#contact",
             className: "nav-link contact",
         },
@@ -68,7 +68,6 @@ export const Navbar = ({ navOpen }: PropTypes) => {
                     </a>
                 ))}
                 <div className="active-box" ref={activeBox}>
-                    Navbar
                 </div>
             </nav>
         </>

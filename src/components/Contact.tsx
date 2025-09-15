@@ -43,12 +43,12 @@ export const Contact = () => {
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
                 <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
                     <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
-                        Contact me for collaboration
+                        Contáctame para trabajar juntos
                     </h2>
 
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
-                        Reach out today to discuss your project needs and start
-                        collaborating on something amazing!
+                        Escríbeme ahora para hablar sobre una oferta de trabajo o propuestas
+                        de proyectos para empezar a colaborar!
                     </p>
 
                     <div className="flex items-center gap-2 mt-auto">
@@ -73,7 +73,7 @@ export const Contact = () => {
                     <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                         <div className="mb-4">
                             <label htmlFor="name" className="">
-                                Name
+                                Nombre
                             </label>
 
                             <input
@@ -105,13 +105,13 @@ export const Contact = () => {
 
                         <div className="mb-4 md:col-span-2">
                             <label htmlFor="message" className="label">
-                                Message
+                                Mensaje
                             </label>
 
                             <textarea
                                 name="message"
                                 id="message"
-                                placeholder="Hi!"
+                                placeholder="Hola!"
                                 required
                                 className="text-field resize-y min-h-32 max-h-80"
                             ></textarea>
@@ -121,7 +121,7 @@ export const Contact = () => {
                             type="submit"
                             className="btn btn-primary [&]:max-w-full w-full justify-center"
                         >
-                            Submit
+                            Enviar
                         </button>
                     </div>
                 </form>
