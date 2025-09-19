@@ -15,10 +15,19 @@ export const About = () => {
             <div className="container">
                 <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[90ch]">
-                        Bienvenid@! Soy Iván, Técnico en Desarrollo de Aplicaciones Web, 
-                        disfruto transformando ideas en aplicaciones prácticas y bien estructuradas. 
-                        Siempre abierto a nuevos retos y en constante aprendizaje para aportar 
-                        soluciones eficientes.
+                        Soy Iván Navarro, Técnico en
+                        Desarrollo de Aplicaciones Web con experiencia en
+                        desarrollo FullStack. Tengo especial interés en el
+                        BackEnd, aunque también disfruto creando interfaces
+                        intuitivas y dinámicas en el FrontEnd. Mi versatilidad
+                        me permite adaptarme a distintos roles y necesidades
+                        dentro de un equipo.
+                        <br />
+                        <br />
+                        Mi objetivo es seguir creciendo como desarrollador,
+                        explorando nuevas tecnologías y afrontando retos que me
+                        permitan aportar valor real a los proyectos en los que
+                        participe. 
                     </p>
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">
                         {aboutItems.map(({ label, number }, key) => (
@@ -35,7 +44,6 @@ export const About = () => {
                                 <p className="text-sm text-zinc-400">{label}</p>
                             </div>
                         ))}
-
                     </div>
                 </div>
             </div>
