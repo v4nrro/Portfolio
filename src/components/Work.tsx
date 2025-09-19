@@ -2,25 +2,25 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-        imgSrc: "/path/to/the/img",
+        imgSrc: "/images/projects/Youllusion-img.png",
         title: "Youllusion",
         tags: ["Angular", "NodeJS", "TypeScript", "MongoDB", "Bootstrap"],
         projectLink: "https://github.com/v4nrro/Youllusion",
     },
     {
-        imgSrc: "/path/to/the/img",
+        imgSrc: "/images/projects/Portfolio-img.png",
         title: "Portfolio",
         tags: ["React", "Tailwind", "TypeScript"],
         projectLink: "https://github.com/v4nrro/Portfolio",
     },
     {
-        imgSrc: "/path/to/the/img",
+        imgSrc: "/images/projects/SVTickets-img.png",
         title: "SVTickets",
         tags: ["Angular", "TypeScript", "Bootstrap"],
         projectLink: "https://github.com/v4nrro/SVTickets-Angular",
     },
     {
-        imgSrc: "/path/to/the/img",
+        imgSrc: "/images/projects/PhysioCare-img.png",
         title: "PhysioCare",
         tags: ["NodeJS", "JavaScript", "MongoDB"],
         projectLink: "https://github.com/v4nrro/PhysioCare",
