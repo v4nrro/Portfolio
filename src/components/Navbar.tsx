@@ -1,7 +1,11 @@
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
-export const Navbar = ({ navOpen }: PropTypes) => {
+type NavbarProps = {
+  navOpen: boolean;
+};
+
+export const Navbar = ({ navOpen }: NavbarProps) => {
     const activeBox = useRef<HTMLDivElement | null>(null);
     const lastActiveLink = useRef<HTMLAnchorElement | null>(null);
 

@@ -1,12 +1,20 @@
 import PropTypes from "prop-types";
 
+type ProjectCardProps = {
+  imgSrc: string;
+  title: string;
+  tags: string[];
+  projectLink?: string;
+  classes?: string;
+};
+
 export const ProjectCard = ({
     imgSrc,
     title,
     tags,
     projectLink,
     classes,
-}: PropTypes) => {
+}: ProjectCardProps) => {
     return (
         <div
             className={

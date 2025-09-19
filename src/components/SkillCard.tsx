@@ -1,6 +1,13 @@
 import PropTypes from "prop-types";
 
-const SkillCard = ({ imgSrc, label, desc, classes }: PropTypes) => {
+type SkillCardProps = {
+  imgSrc: string;
+  label: string;
+  desc: string;
+  classes?: string;
+};
+
+const SkillCard = ({ imgSrc, label, desc, classes }: SkillCardProps) => {
     return (
         <div
             className={
